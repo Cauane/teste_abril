@@ -1,0 +1,147 @@
+/* GERAIS */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+	margin:0;
+	padding:0;
+	-webkit-appearance:none;
+	letter-spacing: 1px;
+}
+
+body, html{
+
+	overflow-x:hidden;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #000;
+}
+
+input{
+
+	outline:none;
+	border:none;
+}
+
+textarea{
+
+	resize:none;
+	outline:none;
+}
+
+.util{
+
+	margin:0 auto;
+	max-width:940px;
+	width: 100%;
+}
+
+ul{
+
+	list-style:none;
+}
+
+a{
+
+	text-decoration:none;
+}
+
+/* FIM GERAIS */
+
+#menu{
+
+	margin: 40px auto;
+	width: 100%;
+	clear: both;
+
+}
+
+	#menu li{
+
+		float: left;
+		margin-left: 20px;
+		font-family: 'Roboto', sans-serif;
+		font-size: 20px;
+		color: #000080;
+
+	}
+
+		#menu li a {
+
+			color:#000080;
+		}
+
+		#menu li:first-child{
+
+			margin-left: 0px;
+
+		}
+
+.btn_estoque{
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	background: #191970;
+	color: #fff;
+	border-radius: 0px;
+	padding: 10px;
+	clear: both;
+	float: left;
+	margin-top: 100px;
+	cursor: pointer;
+}
+
+.btn_forms{
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	background: #fff;
+	border: 2px solid #191970;
+	color: #191970;
+	border-radius: 0px;
+	padding: 10px;
+	clear: both;
+	float: left;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.inp_forms{
+
+	border: 1px solid #000;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	padding: 10px;
+	background: #fff;
+	color: #000;
+}
+
+#form_interno{
+
+	margin-top: 30px;
+
+	
+}
+
+#form_interno li{
+
+	margin-bottom: 20px;
+
+}
+
+#titulo_int{
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #000;
+	font-style: italic;
+}
+
+span{
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: #000;
+	font-weight: bolder;
+
+}
