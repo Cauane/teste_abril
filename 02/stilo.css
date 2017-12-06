@@ -1,0 +1,191 @@
+/* GERAIS */
+
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+*{
+	margin:0;
+	padding:0;
+	-webkit-appearance:none;
+	letter-spacing: 1px;
+}
+
+body, html{
+
+	overflow-x:hidden;
+	background: #e6e6e6;
+}
+
+input{
+
+	outline:none;
+	border:none;
+}
+
+textarea{
+
+	resize:none;
+	outline:none;
+}
+
+.util{
+
+	margin:0 auto;
+	max-width:1320px;
+	width: 100%;
+}
+
+ul{
+
+	list-style:none;
+}
+
+a{
+
+	text-decoration:none;
+}
+
+/* FIM GERAIS */
+
+/* TOPO */
+
+#img_anuncio{
+
+	margin-top: 15px;
+	width: 100%;
+	max-width: 727px;
+
+}
+
+#logo{
+
+	float: left;
+	margin-left: 20px;
+	margin-right: 120px;
+}
+
+#logom{
+
+	width: 100%;
+	max-width: 189px;
+}
+
+.inp_pesq{
+
+	width: 100%;
+	max-width: 120px;
+	height: 32px;
+	padding-left: 15px;
+}
+
+.btn_lupa{
+
+	margin-top: -25px;
+    margin-left: 110px;
+    z-index: 2;
+    position: absolute;
+}
+
+/* MENU */
+
+.menu-mobile,#menu_m{
+
+	display: none;
+}
+
+#bg_menu{
+
+	width: 100%;
+	height: 65px;
+	margin-top: 15px;
+	background: #ed1c24;
+	padding-top: 15px;
+
+}
+
+#menu{
+
+	margin-top: 15px;
+
+}
+
+	#menu li{
+
+		float: left;
+		margin-left: 25px;
+		font-family: 'Dosis', sans-serif;
+		font-size: 14px;
+		color: #fff;
+		font-weight: bold;
+
+	}
+
+		#menu li:first-child{
+
+			margin-left: 0px;
+
+		}
+
+#seta_menu, #icon_sair{
+
+	float: right;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+/* MENU 2 */
+
+#bg_menu2{
+
+	width: 100%;
+	height: 21px;
+	padding-top: 7px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	background: url('parts/bg_menu2.jpg') no-repeat #242424;
+}
+
+	#menu2 li{
+
+		float: left;
+		margin-left: 35px;
+	}
+
+		#menu2 li:first-child{
+
+			margin-left: 30px;
+
+		}
+
+/* MEIO */
+
+#meio li{
+
+	float: left;
+}
+
+#img_capa{
+
+	width: 100%;
+	max-width: 356px;
+}
+
+#img_capa2{
+
+	width: 100%;
+	max-width: 608px;
+}
+
+/* NOTICIAS */
+
+#noticias li{
+
+	float: left;
+	margin-left: 5px;
+}
+	
+	#noticias li:first-child{
+
+		margin-left: 0px;
+	}
